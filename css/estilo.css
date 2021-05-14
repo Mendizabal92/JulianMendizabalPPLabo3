@@ -1,0 +1,83 @@
+table{
+    position: inherit;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.50rem;
+}
+.container{
+        position: relative;
+        background-color: aqua;
+        width: 50%;
+        height: 25%;    
+        border-radius: 0.25rem;
+        box-shadow: 10px 10px 5px 0px rgba(3, 0,0, 0.7);
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+}
+
+input[type=text]{
+    width: 100%;
+    margin: 0.5rem;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1.25rem;
+}
+
+label{
+    margin: 4px 4px;
+}
+
+
+input[type=button]{
+    width: 50%;
+    background-color: forestgreen;
+    color: white;
+    padding: 0.8rem 1.25rem;
+    margin: 0.5rem 0.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 0px rgba(35, 66,6, 0.7);
+    
+}
+
+input[type=buttonCerrar]{
+    text-align: center;
+    width: 46%;
+    background-color: rgb(210, 14, 14);
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1.25rem;
+    margin: 0.5rem 0.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 0px rgba(176, 9, 9, 0.7);
+    box-sizing: border-box;
+    
+}
+
+#spinner{
+    width: 100%;
+}
+
+th{
+    background-color: rgb(22, 9, 53);
+    color: white;
+    text-align: left;
+    padding: 0.50rem;
+}
+
+
+.conError{
+    border: 0.035rem solid red;
+}
+
+.sinError{
+    border: 0.020rem solid black;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}

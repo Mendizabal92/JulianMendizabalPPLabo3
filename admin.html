@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardar</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/estilo.css"> 
+</head>
+<body>
+    <div class="container">
+        <label for="mate">Materia</label>
+        <input type="text" name="txt" id="txtmateria" class="sinError">
+        <label for="cuatri">Cuatrimestre</label>
+        <input type="text" name="txt" id="txtcuatri" class="sinError">
+        <label for="fecha">Fecha</label>
+        <input type="date" name="txt" id="txtFecha" class="sinError"><br>
+        <label for="T">Turno:</label><br>
+        <input type="radio"  name="turno" value="Mañana" checked>
+        <label for="day">Mañana</label><br>
+        <input type="radio" name="turno" value="Noche">
+        <label for="night">Noche</label><br>
+        <input type="button" id="btn" value="Guardar" class="boton">
+        <input type="buttonCerrar" value="Borrar" onclick="borrar()" class="boton">
+        <input type="button" value="modificar" onclick="modificar()" class="boton">
+        <!--div id="spinner">
+            <input type="button" value="modificar" onclick="modificar()" class="boton">
+        </div-->
+        
+    </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Materia</th>
+                    <th>Cuatrimestre</th>
+                    <th>Fecha</th>
+                    <th>Turno</th>
+                    <th>Accion</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="tcuerpo">
+                    
+            </tbody>
+        </table>
+</body>
+</html>
